@@ -7,7 +7,7 @@ class taylor {
 }
 
 class swift extends taylor {
-    @Override
+    @Override    //annotation describes ur intention to compile so it already gives u an error so tht u can change
     public void showTheDataWhichBelongToThisClass() {
         System.out.println("in B show");
     }
