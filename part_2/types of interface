@@ -1,0 +1,10 @@
+                                                TYPES OF INTERFACE--->
+                                                1:Normal Interface:
+                                                when u have interface with multiple public abstaract methods
+
+                                                2:Functional Interface:
+                                                when u have interface with only one public abstaract method.
+
+
+                                                3:Marker Interface:
+                                                when u dont have any methods in it.

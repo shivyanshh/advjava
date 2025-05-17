@@ -6,12 +6,16 @@ public class advEnum {
         switch(s){
             case Running:
                 System.out.println("ALL GOOD!!");
+                break;
             case Failed:
                 System.out.println("Try again");
+                break;
             case Pending:
                 System.out.println("wait please");
+                break;
             default :
                 System.out.println("Done");
+                break;
         }
 
 
