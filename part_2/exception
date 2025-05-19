@@ -1,0 +1,15 @@
+Handling exceptions-->
+1.Comppile time errors
+2.Run time errors
+3.Logical errors
+
+
+1. maybe writing a keyword like System.out.println but u wrote System.out.Println
+
+
+2. execution stops in between.
+
+
+
+
+3.like ur getting a wrong output
