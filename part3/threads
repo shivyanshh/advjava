@@ -1,0 +1,28 @@
+What is a Thread?
+A thread is like a small worker inside your program that can do tasks at the same time as other workers.
+
+
+magine this:
+You’re baking a cake and watching TV at the same time.
+
+🧁 One thread is baking the cake
+
+📺 Another thread is playing the TV
+
+Both are happening at the same time — this is what multithreading means.
+
+
+In Java:
+The main program runs in one thread (called the main thread)
+
+You can create other threads to do different things at the same time
+
+✅ Why use Threads?
+To make programs faster or more responsive
+
+To do more than one thing at once, like:
+
+Downloading a file while updating the screen
+
+Playing music while processing user input
+
