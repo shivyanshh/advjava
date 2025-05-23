@@ -23,9 +23,7 @@ class Solution2{
         }
         for(int n : array){
             System.out.println(n);
-        }
-
-        
+        }        
     }
 }
 public class sol2 {

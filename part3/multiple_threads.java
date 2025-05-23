@@ -1,6 +1,8 @@
 package part3;
+
 class A extends Thread{
     public void run(){
+        
         for(int i = 1;i <= 10 ; i++){
             System.out.println("hi" + i);
             try{
@@ -27,6 +29,6 @@ public class multiple_threads {
         obj2.setPriority(Thread.MAX_PRIORITY);//WE CAN ONLY SUGGEST IT DOESNT MEAN IT WILL PRINT IT FIRST
 
         obj1.start();
-        obj2.start();//this runs the run() method of that class
+        obj2.start();//this runs the run() method of that class ,it works only for thread classes
     }
 }
