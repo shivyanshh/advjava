@@ -1,0 +1,6 @@
+THREAD STATES:
+1.New ----start()-----> Runnable----run()--->Running----stop()---> Dead
+
+2.Running---sleep()/wait()--->waiting----notify()--->Runnable
+
+3.Runnable-----stop()----->Dead
