@@ -12,6 +12,9 @@ public class Map_try {
         students.put("keya", 90);
         students.put("keya",95);
 // keys are sets and values are list
-        System.out.println(students);
+        // System.out.println(students);
+        for(String key : students.keySet()){
+            System.out.println(key+":"+students.get(key));
+        }
     }
 }
