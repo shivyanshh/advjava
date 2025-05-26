@@ -9,11 +9,12 @@ public class Stream_API3_try {
                         .filter(n -> n%2 == 0)   // filters elements
                         .map(n -> n*2)           //transforms the data
                         .reduce(0,(sum,number) -> sum+number);   //combines it. sum =0 , number is the next element
+        System.out.println(nums);
         System.out.println(result);
 
         Stream<Integer> sortedValues = nums.stream()
                                             .filter(n -> n%2==0)
                                             .sorted();
-        sortedValues.forEach(n -> System.out.println(n));
+        sortedValues.forEach(n -> System.out.println(n));      
     }
 }
